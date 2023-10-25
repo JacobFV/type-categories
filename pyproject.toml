@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "type-categories"
+version = "0.1.0"
+description = ""
+authors = ["Jacob Valdez <jacobfv123@gmail.com>"]
+readme = "README.md"
+packages = [{include = "type_categories"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
